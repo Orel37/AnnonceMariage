@@ -1,7 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
 body {
     margin: 0;
     padding: 0;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.title-container {
+    background-image: 
+        linear-gradient(rgba(255, 153, 51, 0.3),rgba(255, 153, 51, 0.3)),
+        url('../img/IMG_6223.JPG');
+    
+    /* The picture and title take 70% of the available width */
+    width: 70vw;
+    /* To make the picture fit the whole screen */
+    background-size: cover;
+
+    /* Alignment */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 40px;
     font-family: 'Pinyon Script', sans-serif;
+    color: white;
+}
+
+.rsvp-container {
+    background-color: rgba(255, 153, 51, 1);
+    /* The RSVP takes 30% of the available width */
+    width: 30vw;
+
+    font-size: 15px;
+    font-family: 'Overlock', sans-serif;
+    color: white;
+
+    /* Alignment */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rsvp-button {
+    padding: 1% 10%;
+    background-color: rgba(255,255,255,0);
+    font-size: 20px;
+    color: white;
+
+    border: 2px solid;
+    border-radius: 24px;
+    border-color: white;
+    
+}
+
+.rsvp-button:hover {
+  background-color: gray; 
+}
+
+
+.location {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.low-margin {
+    margin: 0 5%;
 }
