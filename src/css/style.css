@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
+@import "variables.css";
+
+
 body {
     margin: 0;
     padding: 0;
@@ -17,7 +20,7 @@ body {
 
 .title-container {
     background-image: 
-        linear-gradient(rgba(255, 153, 51, 0.3),rgba(255, 153, 51, 0.3)),
+        linear-gradient(var(--orange-faded),var(--orange-faded)),
         url('../img/IMG_6223.JPG');
     
     /* The picture and title take 70% of the available width */
@@ -25,58 +28,52 @@ body {
     /* To make the picture fit the whole screen */
     background-size: cover;
 
-    /* Alignment */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
     font-size: 40px;
     font-family: 'Pinyon Script', sans-serif;
-    color: white;
+    color: var(--white);
 }
 
 .rsvp-container {
-    background-color: rgba(255, 153, 51, 1);
+    background-color: var(--orange);
     /* The RSVP takes 30% of the available width */
     width: 30vw;
 
     font-size: 15px;
     font-family: 'Overlock', sans-serif;
-    color: white;
-
-    /* Alignment */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    color: var(--white);
 }
 
 .rsvp-button {
     padding: 1% 10%;
-    background-color: rgba(255,255,255,0);
+    background-color: var(--transparent);
     font-size: 20px;
-    color: white;
+    color: var(--white);
 
     border: 2px solid;
     border-radius: 24px;
-    border-color: white;
+    border-color: var(--white);
     
 }
 
 .rsvp-button:hover {
-  background-color: gray; 
+  background-color: var(--white); 
+  color: var(--orange);
+  
 }
 
 
 .location {
     padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .low-margin {
     margin: 0 5%;
+}
+
+.center-along-column {
+    /* Alignment */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
