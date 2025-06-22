@@ -10,5 +10,8 @@ Il y figure entre autres :
 
 Il doit s'adapter à une lecture sur mobile. 
 
-## Hebergement
+Une inspiration : https://www.ungrandjour.com/fr/benjamin-elena
 
+## Hebergement
+* auroreetaurelien.com
+* Hebergé sur des github pages. 

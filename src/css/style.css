@@ -3,68 +3,15 @@
 
 @import "variables.css";
 
+@import "landing-container.css";
+@import "introduction.css";
+
 
 body {
     margin: 0;
     padding: 0;
 }
 
-.main-container {
-    height: 100vh;
-    width: 100%;
-
-    display: flex;
-    flex-direction: row;
-}
-
-
-.title-container {
-    background-image: 
-        linear-gradient(var(--orange-faded),var(--orange-faded)),
-        url('../img/IMG_6223.JPG');
-    
-    /* The picture and title take 70% of the available width */
-    width: 70vw;
-    /* To make the picture fit the whole screen */
-    background-size: cover;
-
-    font-size: 40px;
-    font-family: 'Pinyon Script', sans-serif;
-    color: var(--white);
-}
-
-.rsvp-container {
-    background-color: var(--orange);
-    /* The RSVP takes 30% of the available width */
-    width: 30vw;
-
-    font-size: 15px;
-    font-family: 'Overlock', sans-serif;
-    color: var(--white);
-}
-
-.rsvp-button {
-    padding: 1% 10%;
-    background-color: var(--transparent);
-    font-size: 20px;
-    color: var(--white);
-
-    border: 2px solid;
-    border-radius: 24px;
-    border-color: var(--white);
-    
-}
-
-.rsvp-button:hover {
-  background-color: var(--white); 
-  color: var(--orange);
-  
-}
-
-
-.location {
-    padding-bottom: 10px;
-}
 
 .low-margin {
     margin: 0 5%;
@@ -76,4 +23,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+hr {
+    margin: 0;
+    border-color: var(--orange);
+    color: var(--orange);
+    border-width: 1px;
+
+    width: 1.5rem;
+    height: 5px;
 }
