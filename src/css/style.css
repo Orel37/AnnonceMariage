@@ -5,6 +5,7 @@
 
 @import "landing-container.css";
 @import "introduction.css";
+@import "infos.css";
 
 
 body {
@@ -25,12 +26,41 @@ body {
     justify-content: center;
 }
 
+.center-along-row {
+    /* Alignment */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 hr {
     margin: 0;
-    border-color: var(--orange);
+    background-color: var(--orange);
     color: var(--orange);
-    border-width: 1px;
+    border-radius: 5px;
 
     width: 1.5rem;
-    height: 5px;
+    height: 1px;
+}
+
+full-width {
+    width: 100%;
+}
+
+half-width {
+    width: 50%;
+}
+
+.container {
+    font-family: 'Overlock', sans-serif;
+    margin-bottom: 5rem;
+}
+
+.container h1 {
+    color: var(--orange);
+}
+
+.container ul {
+    list-style-type: none;
 }

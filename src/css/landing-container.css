@@ -17,6 +17,7 @@
     background-size: cover;
 
     font-size: 40px;
+    /* TODO : choose another font */
     font-family: 'Pinyon Script', sans-serif;
     color: var(--white);
 }
@@ -46,7 +47,6 @@
 .rsvp-button:hover {
   background-color: var(--white);
   color: var(--orange);
-
 }
 
 
