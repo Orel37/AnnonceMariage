@@ -14,3 +14,7 @@ Le code couleur
 Le lien vers une cagnotte
 Le lien vers les hebergements disponibles aux alentours. 
 Un agenda, sans oublier le brunch le lendemain
+
+
+## Des resources utiles : 
+* https://css-tricks.com/snippets/css/a-guide-to-flexbox/

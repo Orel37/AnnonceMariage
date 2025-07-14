@@ -1,7 +1,30 @@
-.creneau-horaire h3 {
-    color: rgb(19, 145, 19)
+.agenda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.half-screen {
-    width: 50vw;
+
+.agenda-day {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.agenda-event h4 {
+    font-weight: bolder;
+}
+
+.agenda-event {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.event {
+    width: 70%;
+}
+
+.event h3 {
+    color: rgb(19, 145, 19)
 }
