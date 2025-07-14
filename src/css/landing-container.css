@@ -17,7 +17,7 @@
     background-size: cover;
 
     font-size: 40px;
-    /* TODO : choose another font */
+    /* TODO : choose another font once the new picture is selected */
     font-family: 'Pinyon Script', sans-serif;
     color: var(--white);
 }

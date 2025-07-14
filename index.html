@@ -11,11 +11,11 @@
 <body>
     <!-- Landing container -->
     <div class="landing-container">
-        <div class="title-container center-along-column">
+        <div class="title-container center-in-column">
             <h1>Aurore et Aurélien</h1>
         </div>
-        <div class="rsvp-container center-along-column">
-            <div class="location center-along-column">
+        <div class="rsvp-container center-in-column">
+            <div class="location center-in-column">
                 <h1 class="low-margin">16 mai 2026</h1>
                 <h1 class="low-margin">Le Jas Du Pébrier</h1>
                 <h2>83520 Roquebrune-sur-Argens</h2>
@@ -24,9 +24,9 @@
         </div>
     </div>
 
+    
     <!-- Texte d'introduction -->
-
-    <div class="half-width center-along-column container">
+    <div class="half-width center-in-column container">
         <h1>Introduction</h1>
         <hr/>
         <p> Nous avons le plaisir de vous inviter à notre célébration de mariage qui aura lieu le 16 mai 2026, au Jas du Pébrier, à Roquebrune-sur-Argens.</p>
@@ -35,10 +35,10 @@
     </div>
 
     <!-- Le lieu des festivités -->
-    <div class="container center-along-column">
+    <div class="container center-in-column">
         <h1>Le lieu des festivités</h1>
         <hr/>
-        <div class="center-along-row">
+        <div class="center-in-row">
             <img class="rounded-picture" src="src/img/jas/jas-bastide.png" alt="La bastide du Jas du Pébrier"/>
             <div>
                 <h2>Le Jas Du Pébrier</h2>
@@ -57,49 +57,92 @@
         </div>
     </div>
 
+    <!-- Agenda -->
+    <div class="half-screen center-in-column container">
+        <h1>Agenda</h1>
+        <hr/>
+        <h2>16 mai 2026</h2>
+        <div class="creneau-horaire center-in-row">
+            <h3>16h - 17h</h3>
+            <div class="evenement">
+                <h3>Cérémonie religieuse</h3>
+                <p>Le pasteur nous offre sa bénédiction pendant une cérémonie conviviale.</p>
+            </div>
+        </div>
+        <div class="creneau-horaire center-in-row">
+            <h3>17h - 19h</h3>
+            <div class="evenement">
+                <h3>Vin d'honneur</h3>
+                <!-- TODO : Ajouter un menu ?-->
+                <p>Nous nous retrouvons pour un apéritif à l'extérieur.</p>
+            </div>
+        </div>
+        <div class="creneau-horaire center-in-row">
+            <h3>19h - 3h</h3>
+            <div class="evenement">
+                <h3>Soirée festive</h3>
+                <!-- TODO : Ajouter un menu ?-->
+                <p>Le repas nous attend, ainsi que sa soirée dansante !</p>
+            </div>
+        </div>
+    </div>
 
     <!-- Hébergements -->
-    <div class="container center-along-column half-width">
+    <div class="container center-in-column half-width">
         <h1>Hébergements</h1>
         <hr/>
-        <div class="center-along-row">
+        <div class="center-in-row">
             <div>
                 <p>
-                    Puisque nous savons que vous n'êtes pas tout près, nous vous proposons plusieurs solutions de
-                    logement pour que vous puissiez profiter de la fête le plus longtemps possible !
+                    Afin de profiter un maximum de la fête, nous vous proposons plusieurs solutions de
+                    logement.
                 </p>
-                <div class="center-along-row">
-                    <div class="center-along-column">
+                <div class="center-in-row">
+                    <div class="center-in-column">
                         <h2>Le camping</h2>
-                        <p>Un camping à 200m peut vous accueillir.</p>
+                        <p>Un camping 5 étoiles à 200m peut vous accueillir pour une ou plusieurs nuits.</p>
                         <p>Adresse complète : </p>
                         <ul>
-                            <li>Le camping</li>
-                            <li>adresse</li>
+                            <li>Domaine de la Bergerie</li>
+                            <li>1960 D8</li>
                             <li>83520 Roquebrune-sur-Argens</li>
                         </ul>
-                        <p><a href="https://maps.app.goo.gl/QMVBNbgVchufWMJM9">Localisation</a>.</p>
+                        <p><a href="https://maps.app.goo.gl/vvspXhQrKA7HJpWg8">Localisation</a>.</p>
                     </div>
-                    <div class="center-along-column">
+                    <div class="center-in-column">
                         <h2>L'hôtel</h2>
                         <p>Un hotel un peu plus loin peut vous accueillir.</p>
                         <p>Adresse complète : </p>
                         <ul>
-                            <li>Le camping</li>
+                            <li>L'hôtel</li>
                             <li>adresse</li>
                             <li>83520 Roquebrune-sur-Argens</li>
                         </ul>
                         <p><a href="https://maps.app.goo.gl/QMVBNbgVchufWMJM9">Localisation</a>.</p>
                     </div>
-
                 </div>
-
             </div>
             <img class="rounded-picture" src="src/img/jas/jas-olivier.png" alt="L'olivier du Jas du Pébrier"/>
         </div>
     </div>
-    <!-- Agenda -->
-    <!-- Teaser -->
 
+    <!-- Teaser -->
+    <div class="half-width center-in-column container">
+        <h1>En attendant ... </h1>
+        <hr/>
+        <p> En attendant de vous retrouver, voici quelques moments capturés de notre cérémonie civile, le 16 mai dernier.</p>
+        <!-- TODO : Comprendre pourquoi la vidéo n'est pas disponible -->
+        <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/jNeJYw7yD70?si=ayEN4vy5g1w_JYni"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+        </iframe>
+
+    </div>
 </body>
 </html>

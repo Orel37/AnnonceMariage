@@ -4,8 +4,9 @@
 @import "variables.css";
 
 @import "landing-container.css";
-@import "introduction.css";
 @import "infos.css";
+@import "agenda.css";
+
 
 
 body {
@@ -18,7 +19,7 @@ body {
     margin: 0 5%;
 }
 
-.center-along-column {
+.center-in-column {
     /* Alignment */
     display: flex;
     flex-direction: column;
@@ -26,7 +27,7 @@ body {
     justify-content: center;
 }
 
-.center-along-row {
+.center-in-row {
     /* Alignment */
     display: flex;
     flex-direction: row;

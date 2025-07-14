@@ -6,7 +6,6 @@
 * Ajouter une version anglaise
 * Quelques photos
 * Faire une sorte de FAQ 
-  
 
 
 ## Rajouter les informations suivantes : 
