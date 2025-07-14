@@ -1,0 +1,7 @@
+.question-card {
+    background-color: beige;
+    padding: 1rem 1rem;
+    margin: 0.5rem;
+    border-radius: 15px;
+    width: 40%;
+}
