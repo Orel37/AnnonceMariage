@@ -9,17 +9,26 @@
 .title-container {
     background-image:
         linear-gradient(var(--orange-faded),var(--orange-faded)),
-        url('../img/IMG_6223.JPG');
+        url('../img/DSCF1751-229.jpg');
 
     /* The picture and title take 70% of the available width */
     width: 70vw;
     /* To make the picture fit the whole screen */
     background-size: cover;
 
-    font-size: 40px;
+    
     /* TODO : choose another font once the new picture is selected */
-    font-family: 'Pinyon Script', sans-serif;
+    font-family: 'Overlock', sans-serif;
+    font-size: 30px;
+    font-style: normal;
     color: var(--white);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+
 }
 
 .rsvp-container {
