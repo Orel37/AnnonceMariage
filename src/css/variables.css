@@ -1,9 +1,16 @@
 :root {
+    --white: rgb(255, 255, 255);
+
+    --yellow: rgb(251,191,36);
+
     --orange: rgb(255, 128, 0);
     --orange-faded: rgba(255, 128, 0, 0.3);
-    --yellow: rgb(251,191,36);
-    --white: rgb(255, 255, 255);
-    --transparent: rgba(255, 255, 255, 0)
-    --quarter-transparent: rgba(255, 255, 255, 0.25)
-    --noir: rgba(0, 0, 0);
+    --dark-orange: rgb(245, 124, 0);
+    --light-orange: rgb(255, 243, 224);
+
+    --green: rgb(67, 160, 71);
+    --dark-green: rgb(46, 125, 50);
+    --light-green: rgb(232, 245, 233);
+
+    --quarter-transparent: rgba(255, 255, 255, 0.25);
 }

@@ -42,7 +42,7 @@
 
 .rsvp-button {
     padding: 1% 10%;
-    background-color: var(--transparent);
+    background-color: transparent;
     font-size: 20px;
     color: var(--white);
 
