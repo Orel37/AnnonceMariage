@@ -54,12 +54,17 @@ hr {
     height: 1px;
 }
 
-full-width {
+.full-width {
     width: 100%;
 }
 
-half-width {
+.half-width {
     width: 50vw;
+    max-width: 50vw;
+    min-width: 320px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
@@ -72,4 +77,8 @@ half-width {
 
 .container ul {
     list-style-type: none;
+}
+
+.container p {
+    text-align: justify;
 }
