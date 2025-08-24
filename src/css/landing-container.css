@@ -55,6 +55,8 @@
 .rsvp-button:hover {
   background-color: var(--white);
   color: var(--orange);
+  /* Change the cursor to match the behaviour of the links */
+  cursor: pointer;
 }
 
 
