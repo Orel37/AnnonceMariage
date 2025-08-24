@@ -8,6 +8,7 @@
 @import "infos.css";
 @import "agenda.css";
 @import "questions.css";
+@import "navbar.css";
 
 
 body {
@@ -15,6 +16,7 @@ body {
     padding: 0;
 
     font-size: 20px;
+    font-family: 'Overlock', sans-serif;
 }
 
 
@@ -61,7 +63,6 @@ half-width {
 }
 
 .container {
-    font-family: 'Overlock', sans-serif;
     margin-bottom: 5rem;
 }
 
