@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP - Aurore & Aurélien</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <script src="../js/form.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>RSVP</h1>
+        <h2>Aurore & Aurélien</h2>
+        <p class="subtitle">
+            Toutes les informations renseignées dans ce formulaire resteront privées et seront
+            partagées uniquement à Aurore et Aurélien
+        </p>
+        <form class="rsvp-form" id="rsvp-form">
+            <div id="guests-container">
+                <!-- Guest fields will be inserted here -->
+            </div>
+            <button type="button" id="add-guest-btn">+ Ajouter une autre personne</button>
+            <div class="field">
+                <label for="questions">Avez-vous des questions ?</label>
+                <input type="text" id="questions" name="questions" placeholder="Posez votre question ici">
+            </div>
+            <button type="submit" class="submit-btn">Envoyer</button>
+        </form>
+    </main>
+</body>
+</html>
