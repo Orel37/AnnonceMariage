@@ -145,42 +145,83 @@
 
     
     <!-- Hébergements -->
-    <!-- TODO : Réaliser des cartes avec les infos de chaque hebergements -->
     <div class="container center-in-column half-width" id="hebergements">
         <h1>Hébergements</h1>
         <hr/>
-        <div class="center-in-row">
-            <div>
-                <p>
-                    Afin de profiter un maximum de la fête, nous vous proposons plusieurs solutions de
-                    logement.
-                </p>
-                <div class="center-in-row">
-                    <div class="center-in-column">
-                        <h2>Le camping</h2>
-                        <p>Un camping 5 étoiles à 200m peut vous accueillir pour une ou plusieurs nuits.</p>
-                        <p>Adresse complète : </p>
-                        <ul>
-                            <li>Domaine de la Bergerie</li>
-                            <li>1960 D8</li>
-                            <li>83520 Roquebrune-sur-Argens</li>
-                        </ul>
-                        <p><a href="https://maps.app.goo.gl/vvspXhQrKA7HJpWg8">Localisation</a>.</p>
+        <div class="accommodations-section">
+            <p class="accommodations-intro">
+                Afin de profiter un maximum de la fête, nous vous proposons plusieurs solutions de
+                logement proches du lieu de réception.
+            </p>
+            
+            <div class="accommodations-grid">
+                <div class="accommodation-card">
+                    <div class="card-image">
+                        <img src="https://via.placeholder.com/400x200/4CAF50/FFFFFF?text=Camping+5+étoiles" alt="Camping Domaine de la Bergerie" />
                     </div>
-                    <div class="center-in-column">
+                    <div class="card-header">
+                        <h2>Le camping</h2>
+                        <div class="card-rating">★★★★★</div>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Un camping 5 étoiles à seulement 200m du lieu de réception. Parfait pour une expérience nature avec tout le confort.</p>
+                        
+                        <div class="card-info">
+                            <h3>Adresse</h3>
+                            <div class="address">
+                                <p>Domaine de la Bergerie</p>
+                                <p>1960 D8</p>
+                                <p>83520 Roquebrune-sur-Argens</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-distance">
+                            <span class="distance-badge">📍 200m du lieu</span>
+                        </div>
+                        
+                        <div class="card-actions">
+                            <a href="https://www.domainelabergerie.fr/fr/camping-5-etoiles-dans-le-var" class="btn-website" target="_blank">
+                                Site web du camping
+                            </a>
+                            <a href="https://maps.app.goo.gl/vvspXhQrKA7HJpWg8" class="btn-location" target="_blank">
+                                Voir sur la carte
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accommodation-card">
+                    <div class="card-image">
+                        <img src="https://via.placeholder.com/400x200/FF8000/FFFFFF?text=Hôtel+confort" alt="Hôtel proche du lieu" />
+                    </div>
+                    <div class="card-header">
                         <h2>L'hôtel</h2>
-                        <p>Un hotel un peu plus loin peut vous accueillir.</p>
-                        <p>Adresse complète : </p>
-                        <ul>
-                            <li>L'hôtel</li>
-                            <li>adresse</li>
-                            <li>83520 Roquebrune-sur-Argens</li>
-                        </ul>
-                        <p><a href="https://maps.app.goo.gl/QMVBNbgVchufWMJM9">Localisation</a>.</p>
+                        <div class="card-rating">★★★★</div>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Un hôtel confortable un peu plus éloigné, idéal pour ceux qui préfèrent le confort traditionnel.</p>
+                        
+                        <div class="card-info">
+                            <h3>Adresse</h3>
+                            <div class="address">
+                                <p>Nom de l'hôtel</p>
+                                <p>Adresse complète</p>
+                                <p>83520 Roquebrune-sur-Argens</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-distance">
+                            <span class="distance-badge">📍 Plus d'informations à venir</span>
+                        </div>
+                        
+                        <div class="card-actions">
+                            <a href="https://maps.app.goo.gl/QMVBNbgVchufWMJM9" class="btn-location" target="_blank">
+                                Voir sur la carte
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <img class="rounded-picture" src="src/img/jas/jas-olivier.png" alt="L'olivier du Jas du Pébrier"/>
         </div>
     </div>
 
