@@ -13,9 +13,8 @@
     <!-- Navbar outside landing-container -->
     <nav class="navbar">
         <ul>
-            <li><a href="#details">Details</a></li>
-            <li><a href="#lieu">Le lieu</a></li>
-            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#details">Détails</a></li>
+            <li><a href="#infos">Infos</a></li>
             <li><a href="#hebergements">Hébergements</a></li>
             <li><a href="./src/html/form.html">Répondre</a></li>
         </ul>
@@ -49,32 +48,35 @@
             et pourrez également nous confirmer ou non votre présence via <a href="./src/html/form.html">ce formulaire</a> ! </p>
     </div>
 
+    <!-- Informations -->
     <!-- Le lieu des festivités -->
-    <div class="container center-in-column" id="lieu">
-        <h1>Le lieu des festivités</h1>
+    <div class="half-width container center-in-column" id="infos">
+        <h1>Lieu des festivités</h1>
         <hr/>
         <div class="center-in-row">
             <img class="rounded-picture" src="src/img/jas/jas-bastide.png" alt="La bastide du Jas du Pébrier"/>
             <div>
-                <!-- TODO : Justifier le texte -->
                 <h2>Le Jas Du Pébrier</h2>
                 <p>Nous allons nous réunir au Jas du Pébrier, un joli domaine provençal à côté de Fréjus.</p>
+                
                 <p>En plus de sa salle de réception, il dispose d'un extérieur agréable, et d'un magnifique olivier surplombant
                 une cour intérieure.</p>
                 <p>Voici l'adresse complète : </p>
-                <ul>
+                <ul class="adresse">
                     <li>Le Jas Du Pébrier</li>
                     <li>1610 D8</li>
                     <li>83520 Roquebrune-sur-Argens</li>
                 </ul>
                 <p>Ou retrouvez sa localisation sur <a href="https://maps.app.goo.gl/QMVBNbgVchufWMJM9">Google Maps</a>.</p>
+                <p>La gare la plus proche est celle de Fréjus. L'arrêt de bus le plus proche est celui de Roquebrune Village. <br>
+                    Plus d'informations sur <a href="https://www.esterelcotedazur-lebus.fr/" target="_blank">Estérel côte d'azur | Le bus</a>.<p>
             </div>
         </div>
     </div>
 
     <!-- Agenda -->
      <!-- TODO : Ajouter des photos de la mairie -->
-     <div class="whole-width" id="agenda">
+     <div class="whole-width">
         <div class="agenda container half-width">
             <h1>Agenda</h1>
             <hr/>

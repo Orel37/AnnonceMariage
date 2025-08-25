@@ -5,3 +5,48 @@
     height: 500px;
 
 }
+
+.adresse {
+    background: var(--light-orange);
+    border-left: 4px solid var(--orange);
+    padding: 0.75em 1em;
+    margin: 0.5em 0 1em 0;
+    font-weight: bold;
+    font-size: 1.05em;
+    border-radius: 8px;
+    list-style: none;
+}
+.adresse li {
+    margin-bottom: 2px;
+}
+
+.agenda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.agenda-day {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.agenda-event h4 {
+    font-weight: bolder;
+}
+
+.agenda-event {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.event {
+    width: 70%;
+}
+
+.event h3 {
+    color: rgb(19, 145, 19)
+}
