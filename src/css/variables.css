@@ -12,5 +12,9 @@
     --dark-green: rgb(46, 125, 50);
     --light-green: rgb(232, 245, 233);
 
+    --gold: linear-gradient(90deg, rgb(255, 215, 0) 0%, rgb(255, 195, 0) 50%, rgb(255, 179, 0) 100%);
+    --gold-solid: rgb(255, 215, 0);
+    --gold-border: rgb(255, 195, 0);
+    
     --quarter-transparent: rgba(255, 255, 255, 0.25);
 }

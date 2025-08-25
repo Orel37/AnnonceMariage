@@ -50,3 +50,47 @@
 .event h3 {
     color: rgb(19, 145, 19)
 }
+
+.color-palette {
+    gap: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.color-box {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0.7rem;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.color-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+
+.color-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    min-width: 90px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* gold border for color-box */
+.color-box.gold {
+    background: var(--gold-solid);
+    border: 2px solid var(--gold-border);
+    box-shadow: 0 2px 8px rgba(255, 215, 0, 0.25);
+}
+
+.color-element {
+    margin-right: 1.5rem;
+}
