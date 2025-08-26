@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation Examples - Aurore & Aurélien</title>
+    <style>
+        body { 
+            font-family: 'Arial', sans-serif; 
+            max-width: 800px; 
+            margin: 2rem auto; 
+            padding: 2rem; 
+            background: #f5f5f5;
+        }
+        .example-card {
+            background: white;
+            padding: 2rem;
+            margin: 1rem 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            margin: 0.5rem;
+            background: #FF8000;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        .btn:hover { background: #e6730d; }
+        .btn.secondary { background: #4CAF50; }
+        .btn.secondary:hover { background: #45a049; }
+        h1 { color: #FF8000; text-align: center; }
+        h2 { color: #4CAF50; }
+        .note {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 Aurore & Aurélien - Invitations</h1>
+    
+    <div class="note">
+        <strong>📝 Instructions:</strong> Utilisez ces liens pour envoyer différents types d'invitations à vos invités.
+    </div>
+    
+    <div class="example-card">
+        <h2>🍾 Invitation Complète</h2>
+        <p><strong>Pour:</strong> Famille proche, amis intimes</p>
+        <p><strong>Inclut:</strong> Cérémonie religieuse, vin d'honneur, soirée festive, brunch, hébergements</p>
+        <a href="index.html?invite=full" class="btn" target="_blank">
+            Voir l'invitation complète
+        </a>
+    </div>
+    
+    <div class="example-card">
+        <h2>🥂 Invitation Cérémonie & Vin d'Honneur</h2>
+        <p><strong>Pour:</strong> Collègues, connaissances, amis éloignés</p>
+        <p><strong>Inclut:</strong> Cérémonie religieuse et vin d'honneur</p>
+        <p><strong>Masqué:</strong> Soirée festive, brunch, hébergements</p>
+        <a href="index.html?invite=cocktail" class="btn secondary" target="_blank">
+            Voir l'invitation cérémonie & vin d'honneur
+        </a>
+    </div>
+    
+    <div class="example-card">
+        <h2>📋 Formulaire RSVP</h2>
+        <p>Le formulaire RSVP adapte automatiquement son contenu selon le type d'invitation.</p>
+        <a href="src/html/form.html?invite=full" class="btn" target="_blank">
+            RSVP - Invitation complète
+        </a>
+        <a href="src/html/form.html?invite=cocktail" class="btn secondary" target="_blank">
+            RSVP - Cérémonie & vin d'honneur
+        </a>
+    </div>
+    
+    <div class="note">
+        <strong>💡 Astuce:</strong> Copiez simplement l'URL correspondante pour l'envoyer à vos invités. 
+        Le site s'adaptera automatiquement selon le type d'invitation !
+    </div>
+</body>
+</html>
