@@ -61,3 +61,42 @@
     /* The navbar is roughly 3em high */
     scroll-margin-top: 3.2em;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar ul {
+        gap: 1em;
+        padding: 0.8em 0;
+        flex-wrap: wrap;
+    }
+    
+    .navbar li a {
+        font-size: 0.95em;
+        padding: 0.4em 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar ul {
+        gap: 0.5em;
+        padding: 0.6em 1em;
+        justify-content: space-around;
+    }
+    
+    .navbar li a {
+        font-size: 0.85em;
+        padding: 0.3em 0.6em;
+    }
+    
+    .navbar li a:hover::after {
+        left: 10%;
+        width: 80%;
+    }
+    
+    #details,
+    #lieu,
+    #agenda,
+    #hebergements {
+        scroll-margin-top: 4em;
+    }
+}

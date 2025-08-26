@@ -5,3 +5,19 @@
     border-radius: 15px;
     width: 40%;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .question-card {
+        width: 80%;
+        margin: 1rem auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .question-card {
+        width: 90%;
+        margin: 0.8rem auto;
+        padding: 0.8rem;
+    }
+}
