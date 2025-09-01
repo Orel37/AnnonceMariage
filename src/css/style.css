@@ -12,6 +12,7 @@
 @import "questions.css";
 @import "navbar.css";
 @import "accommodations.css";
+@import "color-palette.css";
 
 
 body {
@@ -49,7 +50,7 @@ body {
 
 hr {
     margin: 0;
-    background-color: var(--orange);
+    background-color: var(--orange-pastel);
     color: var(--orange);
     border-radius: 5px;
 
@@ -75,7 +76,7 @@ hr {
 }
 
 .container h1 {
-    color: var(--orange);
+    color: var(--orange-pastel);
 }
 
 .container ul {

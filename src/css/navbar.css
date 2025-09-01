@@ -49,7 +49,7 @@
 
 /* Add this at the end of your CSS file */
 .navbar.scrolled {
-    background: var(--orange); /* Opaque blue */
+    background: var(--orange-pastel); /* Opaque blue */
     transition: background 0.3s;
 }
 

@@ -16,7 +16,7 @@ h1 {
     font-size: 2rem;
     margin-bottom: 0.5em;
     font-weight: 700;
-    color: var(--orange);
+    color: var(--orange-pastel);
 }
 
 h2 {
@@ -59,7 +59,7 @@ fieldset {
 
 legend {
     font-weight: 600;
-    color: var(--orange);
+    color: var(--orange-pastel);
     margin-bottom: 8px;
     font-size: 1rem;
 }
@@ -77,7 +77,7 @@ legend {
 }
 
 .delete-btn:hover {
-    background: var(--orange);
+    background: var(--orange-pastel);
     color: #fff;
 }
 
@@ -109,7 +109,7 @@ select {
 input[type="text"]:focus,
 input[type="email"]:focus,
 select:focus {
-    border-color: var(--orange);
+    border-color: var(--orange-pastel);
     outline: none;
 }
 
@@ -131,7 +131,7 @@ select:focus {
 }
 
 .radio-group input[type="radio"]:checked + label {
-    color: var(--orange);
+    color: var(--orange-pastel);
 }
 
 .reminder {
@@ -145,7 +145,7 @@ select:focus {
     display: block;
     width: 100%;
     background: var(--light-orange);
-    color: var(--orange);
+    color: var(--orange-pastel);
     border: 1px solid var(--orange);
     border-radius: 8px;
     padding: 8px 0;
@@ -156,7 +156,7 @@ select:focus {
 }
 
 #add-guest-btn:hover {
-    background: var(--orange);
+    background: var(--orange-pastel);
     color: #fff;
 }
 

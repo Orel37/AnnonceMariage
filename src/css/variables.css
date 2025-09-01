@@ -5,15 +5,38 @@
 
     --yellow: rgb(251,191,36);
 
+    /* Palette Beige/Crème/Écru */
     --beige: rgb(200, 173, 127);
+    --beige-light: rgb(245, 232, 203);
+    --ecru: rgb(240, 234, 214);
+    --cream-warm: rgb(255, 248, 230);
+    --cream-soft: rgb(254, 250, 245);
+    --champagne: rgb(247, 231, 206);
+    --sand: rgb(238, 203, 173);
     
+    /* Palette Orange */
     --orange: rgb(255, 165, 102);
-    --orange-slightly-faded: rgba(255, 165, 102, 0.8);
+    --orange-pastel: rgb(255, 165, 102);
+    --orange-vif: rgb(255, 140, 0);
+    --orange-coral: rgb(255, 127, 80);
+    --orange-peach: rgb(255, 218, 185);
+    --orange-apricot: rgb(251, 206, 177);
+    --orange-papaya: rgb(255, 239, 213);
+    --orange-terracotta: rgb(204, 119, 94);
+    --orange-burnt: rgb(204, 85, 0);
     --orange-faded: rgba(255, 165, 102, 0.15);
-    --dark-orange: rgb(245, 124, 0);
     --light-orange: rgb(255, 243, 224);
+    --dark-orange: rgb(245, 124, 0);
 
+    /* Palette Verte */
     --green: rgb(67, 160, 71);
+    --green-sage: rgb(155, 176, 139);
+    --green-olive: rgb(128, 128, 0);
+    --green-eucalyptus: rgb(99, 164, 123);
+    --green-mint: rgb(189, 224, 198);
+    --green-forest: rgb(46, 125, 50);
+    --green-lime: rgb(139, 195, 74);
+    --green-seafoam: rgb(159, 226, 191);
     --dark-green: rgb(46, 125, 50);
     --light-green: rgb(232, 245, 233);
 

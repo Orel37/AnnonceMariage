@@ -45,7 +45,7 @@
 }
 
 .rsvp-container {
-    background-color: var(--orange);
+    background-color: var(--orange-pastel);
     /* The RSVP takes 30% of the available width */
     width: 30vw;
 
@@ -70,7 +70,7 @@
 
 .rsvp-button:hover {
   background-color: var(--white);
-  color: var(--orange);
+  color: var(--orange-pastel);
   /* Change the cursor to match the behaviour of the links */
   cursor: pointer;
 }
