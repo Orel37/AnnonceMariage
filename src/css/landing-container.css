@@ -20,10 +20,21 @@
     background-repeat: no-repeat;
 
     
-    font-family: 'Overlock', sans-serif;
-    font-size: 30px;
+    /* Option 1: Playfair Display - Élégant et sophistiqué */
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 40px;
     font-style: normal;
-    color: var(--white);
+    color: var(--warm-cream);
+    
+    /* Effets d'ombre sophistiqués */
+    text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.6),
+        0 0 8px rgba(0, 0, 0, 0.3),
+        0 0 15px rgba(255, 165, 102, 0.2);
+    
+    /* Effet de contour subtil */
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.1);
 
     display: flex;
     flex-direction: column;
@@ -39,7 +50,7 @@
     width: 30vw;
 
     font-size: 15px;
-    font-family: 'Overlock', sans-serif;
+    font-family: 'Delius', sans-serif;
     color: var(--white);
     text-align: center;
 }
@@ -47,6 +58,7 @@
 .rsvp-button {
     padding: 1% 10%;
     background-color: transparent;
+    font-family: 'Delius', sans-serif;
     font-size: 20px;
     color: var(--white);
 
@@ -89,7 +101,6 @@
     .title-container {
         width: 100vw;
         height: 65vh;
-        justify-content: center;
         background-position: center center;
         background-size: cover;
         text-align: center;
@@ -97,7 +108,7 @@
     
     .title-container h1 {
         font-size: 2.2em;
-        margin: 1rem;
+        margin: 2rem;
         padding: 0 2rem;
         line-height: 1.2;
     }
@@ -140,7 +151,7 @@
     .title-container {
         width: 100vw;
         height: 60vh;
-        justify-content: center;
+        justify-content: flex-end;
         font-size: 24px;
         /* Adjust background position for mobile to focus on the people */
         background-position: center 30%;
@@ -151,7 +162,7 @@
     .title-container h1 {
         font-size: 2em;
         text-align: center;
-        margin: 1rem 0.5rem;
+        margin: 1.5rem 0.5rem;
         padding: 0 1rem;
         line-height: 1.2;
     }
@@ -196,7 +207,7 @@
     
     .title-container h1 {
         font-size: 1.6em;
-        margin: 0.5rem 0.5rem;
+        margin: 1.5rem 0.5rem;
         padding: 0 0.5rem;
         line-height: 1.1;
     }

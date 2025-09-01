@@ -1,12 +1,15 @@
 :root {
     --white: rgb(255, 255, 255);
+    --cream: rgb(254, 250, 245);
+    --warm-cream: rgb(255, 248, 230);
 
     --yellow: rgb(251,191,36);
 
     --beige: rgb(200, 173, 127);
     
-    --orange: rgb(255, 128, 0);
-    --orange-faded: rgba(255, 128, 0, 0.15);
+    --orange: rgb(255, 165, 102);
+    --orange-slightly-faded: rgba(255, 165, 102, 0.8);
+    --orange-faded: rgba(255, 165, 102, 0.15);
     --dark-orange: rgb(245, 124, 0);
     --light-orange: rgb(255, 243, 224);
 
