@@ -51,6 +51,11 @@
     color: rgb(19, 145, 19)
 }
 
+.event p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 /* Tablet-specific responsive design (iPad Pro, etc.) */
 @media (max-width: 1024px) and (min-width: 769px) {
     .center-in-row {
