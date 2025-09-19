@@ -75,6 +75,12 @@ hr {
     margin-bottom: 5rem;
 }
 
+/* Compensation pour la navbar fixe sur toutes les sections de navigation */
+#details, #infos, #hebergements {
+    scroll-margin-top: 60px;
+    position: relative;
+}
+
 .container h1 {
     color: var(--orange-pastel);
 }
