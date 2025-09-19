@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function handleInvitationType(isFriendsInvitation) {
     if (isFriendsInvitation) {        
         // Modify agenda to show only cocktail reception
-        modifyAgendaForCocktail();
+        modifyAgenda();
         
         // Update all form links to preserve the invitation type.
         updateFormLinks();
@@ -36,11 +36,12 @@ function removeAccomodationHouses() {
 }
 
 
-function modifyAgendaForCocktail() {    
-    // Hide entire agenda-day sections for 17 mai
-    const dayTitles = document.querySelectorAll('.agenda-day h2');
-    dayTitles.forEach(day => {
-        if (day.textContent.includes('17 mai')) {
+function modifyAgenda() {    
+    // Hide only the agenda-day section for 17 mai (family brunch)
+    const agendaDays = document.querySelectorAll('.agenda-day');
+    agendaDays.forEach(day => {
+        const dayTitle = day.querySelector('h2');
+        if (dayTitle && dayTitle.textContent.includes('17 mai')) {
             day.style.display = 'none';
         }
     });
