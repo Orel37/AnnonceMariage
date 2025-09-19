@@ -75,6 +75,29 @@
   cursor: pointer;
 }
 
+/* Style pour le verset biblique */
+.bible-verse {
+    margin-top: 2rem;
+    max-width: 300px;
+    text-align: center;
+    font-style: italic;
+    color: var(--white);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.bible-verse p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.verse-reference {
+    font-size: 0.8rem !important;
+    opacity: 0.9;
+    font-weight: 500;
+    margin-top: 1rem !important;
+}
+
 
 .location {
     padding-bottom: 10px;
