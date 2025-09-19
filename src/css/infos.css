@@ -41,6 +41,8 @@
     display: flex;
     flex-direction: row;
     gap: 3rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .event {
