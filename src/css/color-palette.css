@@ -5,14 +5,54 @@
 /* Styles pour le nuancier de couleurs */
 .color-section {
     margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 165, 102, 0.2);
 }
 
 .color-section h3 {
     color: var(--orange);
     font-size: 1.3em;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     text-align: center;
     font-weight: 600;
+}
+
+/* Descriptions des catégories */
+.color-category-description {
+    font-size: 0.95em;
+    color: var(--orange);
+    text-align: center !important;
+    font-style: italic;
+    margin: 0.5rem auto 1.5rem auto;
+    opacity: 0.9;
+    display: block;
+    width: 100%;
+}
+
+/* Section optionnelle */
+.optional-colors {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(67, 160, 71, 0.3);
+}
+
+.optional-colors h3,
+.optional-colors p {
+    color: var(--green);
+}
+
+/* Sous-sections dans les couleurs optionnelles */
+.color-subsection {
+    margin: 1.5rem 0;
+}
+
+.color-subsection h4 {
+    color: var(--green);
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 .color-palette {
